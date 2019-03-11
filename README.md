@@ -7,9 +7,11 @@ Created by Aki Ariga (aki@cloudera.com)<br>
 <b>Use Case</b>: NLP + wordcloud visualization
 
 <b>Steps</b>:<br>
-1. Open workbench with Python2 engine
-2. Run `cd wordcloud_alice && setup.sh` on your terminal or `! wordcloud_alice/setup.sh` on your console
-3. Run `word_cloud.py` with your workbench
+1. Set engine environment variable:  
+  PYSPARK_PYTHON=/anaconda/bin/python2.7
+2. Open workbench with Python2 engine
+3. Run `cd wordcloud_alice && setup.sh` on your terminal or `! wordcloud_alice/setup.sh` on your console
+4. Run `word_cloud.py` with your workbench
 
 <b>Recommended Session Sizes</b>: 1 CPU, 2 GB RAM
 
